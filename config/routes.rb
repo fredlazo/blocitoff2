@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'items/create'
+  get 'welcome/index' => 'welcome#index'
 
   devise_for :users
 
